@@ -6,7 +6,7 @@
 # Platform    HackerRank
 # Language    python3
 # Status      Accepted
-# Submitted   2026-09-02, 12:01 p.m.
+# Submitted   2026-09-02, 12:02 p.m.
 # ──────────────────────────────────────────────────
 
 #!/bin/python3
