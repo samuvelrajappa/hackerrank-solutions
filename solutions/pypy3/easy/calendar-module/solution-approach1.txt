@@ -1,0 +1,22 @@
+# ──────────────────────────────────────────────────
+# Link        https://www.hackerrank.com/challenges/calendar-module/problem?isFullScreen=true
+# Problem     Calendar Module
+# Difficulty  Easy
+# Subdomain   Date and Time
+# Platform    HackerRank
+# Language    pypy3
+# Status      Accepted
+# Submitted   2026-09-09, 12:10 p.m.
+# ──────────────────────────────────────────────────
+
+# Enter your code here. Read input from STDIN. Print output to STDOUT
+import calendar
+
+# Read the space-separated month, day, and year from standard input
+month, day, year = map(int, input().split())
+
+# Get the day of the week index (0 = Monday, 6 = Sunday)
+day_index = calendar.weekday(year, month, day)
+
+# Look up the weekday name and print it in capital letters
+print(calendar.day_name[day_index].upper())
